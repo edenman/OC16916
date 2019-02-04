@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F3CE08135F62D6D9F6097B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CEEE907D0402788DF9AE5 /* ViewController.swift */; };
+		8F3CE2A2420CF2642C3EF81D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CED8010DBDD22D31FA7F4 /* UIViewExtension.swift */; };
 		8F3CE2D1DDBA4DDC1A878C1C /* OC16916Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CE73CA4DC237B4D0E8DDF /* OC16916Tests.swift */; };
 		8F3CE92A6252CD6DEF014597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CE2EE6B792984EA75D1CF /* AppDelegate.swift */; };
 		8F3CEB8E452BD79D40879EF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3CE50FA43AC24B996D5E75 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		8F3CE81F6B8D54CCC0B63396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3CE8A4906736D855E9F2F7 /* OC16916.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OC16916.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F3CEC1065F5CCC7E1D526DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F3CED8010DBDD22D31FA7F4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		8F3CEEE907D0402788DF9AE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6F790E87567AE28AB2CE191 /* Pods-OC16916.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC16916.release.xcconfig"; path = "Target Support Files/Pods-OC16916/Pods-OC16916.release.xcconfig"; sourceTree = "<group>"; };
 		C605A04B7757FA3952986077 /* Pods-OC16916Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OC16916Tests.release.xcconfig"; path = "Target Support Files/Pods-OC16916Tests/Pods-OC16916Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				8F3CE2EE6B792984EA75D1CF /* AppDelegate.swift */,
 				8F3CED5FF1E8F494835E3934 /* Main.storyboard */,
 				8F3CEEE907D0402788DF9AE5 /* ViewController.swift */,
+				8F3CED8010DBDD22D31FA7F4 /* UIViewExtension.swift */,
 			);
 			path = OC16916;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				8F3CE92A6252CD6DEF014597 /* AppDelegate.swift in Sources */,
 				8F3CE08135F62D6D9F6097B3 /* ViewController.swift in Sources */,
+				8F3CE2A2420CF2642C3EF81D /* UIViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
